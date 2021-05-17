@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Toma!!</title>
+    <video class="background_video" id="video" src="ph-014-s_1.mp4" webkit-playsinline playsinline autoplay loop muted></video>
+</head>
+<body bgcolor="black">
+    <button onclick="pressed()" id="button" class="button">ここを押してね！</h1>
+    <script>
+        var music = new Audio('ph-014-s_2.mp3');
+        window.onload = function(){
+            document.getElementById("video").style.display="none";
+        }
+        function pressed(){
+            var button = document.getElementById('button');
+            button.remove()
+            music.loop = true;
+            music.play();
+            document.getElementById("video").style.display="block";
+        }
+    </script>
+    
+</body>
+</html>

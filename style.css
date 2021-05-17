@@ -1,0 +1,19 @@
+.button{
+    width: 20vw;
+    height: 20vh;
+    font-size: 2rem;
+    position: relative;
+    display: block;
+    padding: 0.25em 0.5em;
+    color: #FFF;
+    text-decoration: none;
+    background: #ffc933;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+.background_video{
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
